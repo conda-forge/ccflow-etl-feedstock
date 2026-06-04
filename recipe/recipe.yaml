@@ -1,6 +1,6 @@
 context:
   name: ccflow-etl
-  version: "0.1.0"
+  version: "0.1.2"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name|replace("-", "_") }}-${{ version }}.tar.gz
-  sha256: 946250da77a73d25419ddc280b8622e1b9177e45ccd3fb77a44f90a617e8743c
+  sha256: c0974a75ca2260b3ebf970009c8d82b3b4f9d8f17d4f3cf886506bf31c33aa92
 
 build:
   number: 0
