@@ -27,7 +27,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
-    - ccflow >=0.8.3
+    - ccflow >=0.8.5
     - hydra-core
     - pydantic
     - pyarrow
