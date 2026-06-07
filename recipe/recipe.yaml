@@ -29,6 +29,7 @@ requirements:
     - python >=${{ python_min }}
     - ccflow >=0.8.5
     - hydra-core
+    - lerna
     - pydantic
     - pyarrow
 
